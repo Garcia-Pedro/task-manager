@@ -1,0 +1,87 @@
+@import '../main.css';
+/*--------------------Header----------------------*/
+.header-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.header-top .logo
+{
+    font-size: 1.8rem;  
+    font-weight: 700;
+}
+.header-top .logo span
+{
+    color: var(--second-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.header-top .navbar
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top .navbar ul:nth-child(1) li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.header-top .navbar ul:nth-child(1) li a:hover{
+    color: var(--second-color);
+    transition: color .4s;
+}
+
+.header-top .navbar ul:nth-child(2) li 
+{
+    background: var(--second-color);
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+}
+.header-top .navbar ul:nth-child(2) li a{
+    color: var(--main-color);
+}
+.header-top .navbar ul:nth-child(2) li:hover
+{
+    background-color: var(--sc-hover);
+    transition: .4s; 
+}
+/*--------------------Jumbotron----------------------*/
+.jumbotron
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: absolute;
+}
+.jumbotron .jumbo-title
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+    max-width: 50rem;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+.jumbotron .jumbo-title span{
+    color: var(--second-color);
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.jumbotron a{
+    background-color: var(--second-color);
+    padding: 1rem 3.5rem;
+    color: var(--main-color);
+    border-radius: 5px;
+}
+.jumbotron a:hover
+{
+    background: var(--sc-hover);
+    transition: .4s;
+}

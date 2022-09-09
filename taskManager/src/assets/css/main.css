@@ -1,0 +1,26 @@
+/*------------------------------------------*/
+:root
+{
+    --main-color: rgb(46, 41, 56);
+    --sc-hover: rgb(142, 139, 198);
+    --second-color: rgb(180, 172, 249);
+    --third-color: rgb(54, 48, 65);
+}
+body
+{
+    background-color: var(--main-color);
+}
+*{
+    color: #cfcfcf; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS';
+    box-sizing: border-box;
+}
+#active
+{
+    color: var(--second-color);
+}
